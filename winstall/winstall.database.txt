@@ -1,0 +1,44 @@
+CREATE TABLE IF NOT EXISTS [Prefix]cms_accounts (
+  id smallint(2) unsigned NOT NULL auto_increment,
+  login varchar(120) character set utf8 collate utf8_unicode_ci NOT NULL,
+  password varchar(42) character set utf8 collate utf8_unicode_ci NOT NULL,
+  PRIMARY KEY  (id)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+
+INSERT INTO [Prefix]cms_accounts (id, login, password) VALUES
+(1, '[r_login]', '[r_password]');
+
+CREATE TABLE IF NOT EXISTS [Prefix]cms_articles (
+  id int(6) unsigned NOT NULL auto_increment COMMENT 'Article unique id',
+  title varchar(180) collate utf8_unicode_ci default NULL COMMENT 'The title of the article',
+  url varchar(180) collate utf8_unicode_ci default NULL COMMENT 'Clean url of the page',
+  tagline varchar(255) collate utf8_unicode_ci default NULL COMMENT 'Short summary of the article',
+  section enum('no','yes') collate utf8_unicode_ci NOT NULL default 'no' COMMENT 'In the menu if it''s a page or a separator',
+  content text collate utf8_unicode_ci COMMENT 'The article content itself',
+  menu_pos int(2) NOT NULL default '0',
+  model varchar(120) collate utf8_unicode_ci NOT NULL COMMENT 'Le modèle HTML de la page',
+  PRIMARY KEY  (id)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+
+INSERT INTO [Prefix]cms_articles (id, title, url, tagline, section, content, menu_pos, model) VALUES
+(1, 'Accueil', 'accueil', '', 'no', 'Ma page principale.', 2, 'home'),
+(2, 'Autre page', 'autre', '', 'no', 'Ma seconde page.', 1, 'home');
+
+CREATE TABLE IF NOT EXISTS [Prefix]cms_site (
+  id varchar(42) collate utf8_unicode_ci NOT NULL,
+  value varchar(240) collate utf8_unicode_ci NOT NULL,
+  PRIMARY KEY  (id)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+INSERT INTO [Prefix]cms_site (id, value) VALUES
+('templ', 'templates/Swift'),
+('SiteHeader', 'Titre de mon site'),
+('SiteMoto', 'Slogan ou sous titre de mon site.'),
+('SiteFooter', 'Contenu du pied de page'),
+('TabTitle', 'Titre dans le navigateur');
+
+CREATE TABLE IF NOT EXISTS [Prefix]cms_uploads (
+  upload_id varchar(50) collate utf8_unicode_ci NOT NULL,
+  upload_name varchar(140) collate utf8_unicode_ci NOT NULL,
+  PRIMARY KEY  (upload_id)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

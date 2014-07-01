@@ -1,0 +1,280 @@
+/* Styles HTML pour l'interface d'administration */
+*{outline:none}
+html{background:#F7F6F1}
+body{margin:0} /* background:#F7F6F1 */
+body, input, select, input, textarea, h1, h2, h3{font-family: Verdana, Arial, "Bitstream Vera Sans", Sans-serif; font-size:13px}
+img{border:0}
+a{color:#18419E; text-decoration:none}
+a:hover{text-decoration:underline}
+
+form{}
+label{display:block; margin:8px 0px 3px 0px}
+
+h1.admin-title, h2.admin-title, h3.admin-title{font-family:Georgia; font-style:italic; font-weight:normal; color:#1D507D}
+h1.admin-title{font-size: 30px; text-shadow: 0px 1px 0px #000000}
+h2.admin-title{font-size: 23px; text-shadow: 0px 1px 0px #FFFFFF}
+h3.admin-title{font-size: 19px;}
+
+#login-form input{
+	display:block;
+	margin:5px 0px 12px 0px;
+}
+
+#lang-bar{
+	margin:5px 0px 0px 10px;
+}
+
+input{
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-khtml-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+input[type=text], input[type=password]{
+	width:280px;
+	border:1px solid #DFDFDF;
+	padding:5px 6px 5px 6px;
+	transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+	box-shadow: 0 0 5px rgba(0, 0, 255, 1);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, 1); 
+    -moz-box-shadow: 0 0 5px rgba(82,168,236,.75); 
+}
+
+input[type=text].big-input{
+	width:420px;
+	font-size:14px;
+}
+input[type=text].tip{
+	color:#979797;
+}
+input[type=text].no-tip{
+	color:#000;
+}
+input[type=text].required, input[type=password].required{
+	border:1px solid #E6A4A2;
+}
+input[type=text].required:focus, input[type=password].required:focus{
+	border:1px solid #E6A4A2;
+	box-shadow: 0 0 5px #F33636;
+    -webkit-box-shadow: 0 0 5px #F33636; 
+    -moz-box-shadow: 0 0 5px #F33636; 
+}
+
+textarea{border:1px solid #DFDFDF; padding:5px 6px 5px 6px}
+select{width:240px}
+table.form{border-spacing:10px}
+table.form td{}
+
+input[type=submit]{
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	background: url(img/AdminTitleBackground.png) repeat-x #436D92;
+	border:1px solid #2E5185;
+	padding: 8px 6px 8px 6px;
+}
+
+
+input[type=submit]:hover{
+	background:#43678F;
+	border:1px solid #20385E;
+	cursor: pointer;
+}
+
+input:focus{border:1px solid #6DAADC;}
+input.required:focus{border:1px solid #CF5552}
+
+/* Styles des boites */
+#admin-container{}
+
+#install{
+	width:800px;
+	margin:auto;
+}
+
+#admin-header{
+	line-height:48px;
+	color:#fff;
+	background:#1D507D;
+	padding:0px 10px 0px 10px;
+	margin-bottom:10px;
+}
+	#admin-header a{color:#fff;}
+	#admin-header h1{margin:0;color:#fff;}
+	#admin-user{float:right;}
+
+.admin-nav{
+	float:left;
+	width:210px;
+	margin:10px 10px 10px 10px;
+	border:1px solid #2E5185;
+	background:#fff;
+}
+
+.admin-nav ul{list-style-type:none;margin:0;padding:0;}
+.admin-nav ul li{}
+.admin-nav ul li a{
+	display: block;
+	color: #2d2d2d;
+	padding: 4px 10px 4px 10px;
+	font-size: 11px;
+}
+.admin-nav ul li a:hover{
+	background: #CBD9E7;
+	text-decoration: none;
+}
+
+.admin-nav a.selected{
+	background: #EACC66; /* Dark blue : #5581B0 */
+	font-weight: bold;
+	/* color:#fff; */
+}
+
+	.admin-nav .box-title{
+		background:url(img/AdminTitleBackground.png) repeat-x #5883A9;
+		line-height:22px;
+		padding:0px 10px 1px 10px;
+		border-top:0px;
+		color:#fff;
+		text-shadow: 0 1px 0 #374555;
+		margin:8px 0px 0px 0px;
+	}
+	.admin-nav .first{margin-top:0}
+	.admin-nav .last{margin-bottom:0}
+
+	.box-title table{margin:0; padding:0}
+	.box-title table tr{margin:0; padding:0}
+	.box-title table td{margin:0; padding:0}
+	.box-title table td img{margin-right:4px}
+	
+#admin-content{
+	margin:0px 0px 0px 260px;
+}
+
+#admin-footer{
+	font-size: 11px;
+	color:#979797;
+	margin:0;
+	padding:10px;
+	background:#1D507D;
+}
+#admin-footer a{color:#fff}
+
+
+#login-content{
+	padding:15px;
+	width:380px;
+	margin:45px auto 0px auto;
+	text-align:center;
+	background:#fff;
+	text-align:center;
+}
+	#login-content form, #login-content h2{text-align:left;}
+	#login-content h2{margin:0;margin-bottom:1em}
+
+a#mini-dropdown{
+	
+}
+a#mini-dropdown:hover{
+	
+}
+
+#mini-dropdown-content{
+	width:280px;
+	border:1px solid #6DAADC;
+	border-top:0;
+	margin:0px 4px 0px 4px;
+	display:none;
+	position:absolute;
+	background:#F7F6F1;
+	-moz-border-radius:0px 0px 4px 4px;
+	z-index:99;
+}
+	#mini-dropdown-content a{display:block;padding:2px 5px 2px 5px;text-decoration:none;}
+	#mini-dropdown-content a:hover{background:#CBD9E7;}
+
+.round{
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-khtml-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+.clear{
+	clear:both;
+}
+
+.inline_nav{
+	font-size:11px;
+	font-style:italic;
+	padding:5px;
+	color:#1D507D;
+	border:1px solid #4E81BA;
+}
+
+.inline_nav a{color:#1D507D;font-size:11px;}
+
+
+.login-warning{margin-left:260px}
+.warning{
+	position:absolute;
+	top:10px;
+	background-color:#fff9d7;
+	border:1px solid #e2c822;
+	padding:8px 10px 8px 30px;
+	font-weight:bold;
+	font-size:11px;
+	text-align:center;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	background:url(img/bulb.png) no-repeat 10px center #fff9d7;
+}
+.success{background-color:#eceff6;border-color:#d4dae8}
+.warn{background-color:#fff9d7;border-color:#e2c822}
+.error{background-color:#ffebe8;border-color:#dd3c10}
+
+table.admin_table{border-collapse:separate;border-spacing:0px 4px;}
+table.admin_table tr{background-color:#D5D0CC;border:1px solid #000;}
+table.admin_table th{padding:3px 10px 3px 10px;text-align:left}
+table.admin_table td{padding:3px 10px 3px 10px;text-align:left}
+
+table.admin_table td.separator-type{padding:3px 10px 3px 10px;text-align:left;background:#C1C2B1}
+
+
+
+.info{
+	color:#666666;
+	font-style:italic;
+	font-size:11px;
+}
+
+.code{
+	font-family:"Courier New",Courier,monospace;
+}
+
+small{
+	font-size:11px;
+}
+
+.hidden{
+	display:none;
+}
+
+.rounded{
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-khtml-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+
+.box-shadow{
+	-moz-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5) !important;
+	-webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}

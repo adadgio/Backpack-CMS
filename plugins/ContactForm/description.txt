@@ -1,0 +1,1 @@
+Ce plugin permet d'insérer un formulaire de contact sur vos pages.

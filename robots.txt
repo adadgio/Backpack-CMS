@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.arnosteo-formation-bebe.fr/sitemap.xml

@@ -1,0 +1,9 @@
+/*
+	Fixes CSS applied inside the editor window, such as its background color
+	Additionnaly, style better editing style
+*/
+body{
+	background: #fff;
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 11px;
+}

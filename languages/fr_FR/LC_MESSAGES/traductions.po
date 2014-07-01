@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Charles <charles.tanche@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Aucun
+msgid "Installation"
+msgstr "Installation"
+
+msgid "Installation de BackpackCMS"
+msgstr "Installation de BackpackCMS"
+
+msgid "Installation réussie"
+msgstr "Installation réussie"
+
+msgid "Installer BackpackCMS"
+msgstr "Installer BackpackCMS"
+
+msgid "Pré-requis"
+msgstr "Pré-requis"
+
+msgid "PHP version 4.2 ou au dessus <b>&middot;</b> Votre version : "
+msgstr "PHP version 4.2 ou au dessus <b>&middot;</b> Votre version : "
+
+msgid "Un accès à une base de donnée MySQL."
+msgstr "Un accès à une base de donnée MySQL."
+
+msgid "Vous pouvez maintenant gérer votre site à l'adresse <a href=\"/admin\">/admin</a> en vous connectant avec votre mon d'utilisateur et mot de passe."
+msgstr "Vous pouvez maintenant gérer votre site à l'adresse <a href=\"/admin\">/admin</a> en vous connectant avec votre mon d'utilisateur et mot de passe."
+
+msgid "Pour des raisons de sécurité, il est conseillé de supprimer les fichiers suivants :"
+msgstr "Pour des raisons de sécurité, il est conseillé de supprimer les fichiers suivants :"
+
+msgid "Création d'un compte administrateur"
+msgstr "Création d'un compte administrateur"
+
+msgid "Identifiant"
+msgstr "Identifiant"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Mot de passe"
+msgstr "Mot de passe"
+
+msgid "Confirmez le mot de passe"
+msgstr "Confirmez le mot de passe"
+
+msgid "Confirmation du mot de passe"
+msgstr "Confirmation du mot de passe"
+
+msgid "Confirmer le mot de passe"
+msgstr "Confirmer le mot de passe"
+
+msgid "Chemin d'installation"
+msgstr "Chemin d'installation"
+
+msgid "Dossier d'installation"
+msgstr "Dossier d'installation"
+
+msgid "Informations de connexion à la base de donnée"
+msgstr "Informations de connexion à la base de donnée"
+
+msgid "Hôte MySQL"
+msgstr "Hôte MySQL"
+
+msgid "Nom d'utilisateur"
+msgstr "Nom d'utilisateur"
+
+msgid "Nom de la base de donnée"
+msgstr "Nom de la base de donnée"
+
+msgid "Préfixe des tables"
+msgstr "Préfixe des tables"
+
+msgid "Optionnel"
+msgstr "Optionnel"
+
+msgid "Logiciel sous licence libre"
+msgstr "Logiciel sous licence libre"
+
+msgid "GNU Public Licence"
+msgstr "GNU Public Licence"
+
+msgid "Une erreur est survenue pendant le processus d'installation."
+msgstr "Une erreur est survenue pendant le processus d'installation."
+
+msgid "Vous pouvez vous connecter à votre interface d'aministration avec l'identifiant suivant"
+msgstr "Vous pouvez vous connecter à votre interface d'aministration avec l'identifiant suivant"
+
+msgid "BackpackCMS a été installé"
+msgstr "BackpackCMS a été installé"
+
+msgid "L'installation s'est terminée avec succès."
+msgstr "L'installation s'est terminée avec succès."
+
+msgid "Connexion"
+msgstr "Connexion"
+
+msgid "Votre mot de passe n'est pas valide."
+msgstr "Votre mot de passe n'est pas valide."
+
+msgid "Votre identifiant n'est pas reconnu."
+msgstr "Votre identifiant n'est pas reconnu."
+
+msgid "Tous les champs ne sont pas correctement remplis."
+msgstr "Tous les champs ne sont pas correctement remplis."
+
+msgid "Tableau de bord"
+msgstr "Tableau de bord"
+
+msgid "Nouvelle page"
+msgstr "Nouvelle page"
+
+msgid "Gestion de pages"
+msgstr "Gestion de pages"
+
+msgid "Réglages et paramètres"
+msgstr "Réglages et paramètres"
+
+msgid "Modifier l'apparence"
+msgstr "Modifier l'apparence"
+
+msgid "Comptes utilisateurs"
+msgstr "Comptes utilisateurs"
+
+msgid "Media et images"
+msgstr "Media et images"
+
+msgid "Importer, exporter"
+msgstr "Importer, exporter"
+
+msgid "Gestion des extensions"
+msgstr "Gestion des extensions"
+
+msgid "Voir le site"
+msgstr "Voir le site"
+
+msgid "Vous avez créé et publié"
+msgstr "Vous avez créé et publié"
+
+msgid "pages"
+msgstr "pages"
+
+msgid "Le titre du séparateur ne peut pas être vide."
+msgstr "Le titre du séparateur ne peut pas être vide."
+
+msgid "Votre site est habillé avec le modèle graphique intitulé"
+msgstr "Votre site est habillé avec le modèle graphique intitulé"
+
+msgid "<strong>Astuce :</strong>Pour insérer une image dans le contenu d'une page, uploadez d'abord une image dans \"Images et Documents\", puis copize-collez son lien dans le corps de votre page lorsque vous la modifiez."
+msgstr "<strong>Astuce :</strong>Pour insérer une image dans le contenu d'une page, uploadez d'abord une image dans \"Images et Documents\", puis copize-collez son lien dans le corps de votre page lorsque vous la modifiez."
+
+msgid "<strong>Astuce :</strong> Les seules options délicates à utiliser dans BackpackCMS sont celles du menu \"Changer l'apparence\", car vous pouvez y modifier le code source HTML. La plus grande prudence est donc de mise avant de commencer à éditer un modèle graphique : \"Exportez votre site\" au préalable."
+msgstr "<strong>Astuce :</strong> Les seules options délicates à utiliser dans BackpackCMS sont celles du menu \"Changer l'apparence\", car vous pouvez y modifier le code source HTML. La plus grande prudence est donc de mise avant de commencer à éditer un modèle graphique : \"Exportez votre site\" au préalable."
+
+msgid "Vous ne pouvez pas supprimer votre propre compte."
+msgstr "Vous ne pouvez pas supprimer votre propre compte."
+
+msgid "Une erreur inconnue est survenue pendant la création du compte."
+msgstr "Une erreur inconnue est survenue pendant la création du compte."
+
+msgid "Le nouveau compte a été crée."
+msgstr "Le nouveau compte a été crée."
+
+msgid "Ce compte existe déjà."
+msgstr "Ce compte existe déjà."
+
+msgid "Les deux mot de passe ne correspondent pas."
+msgstr "Les deux mot de passe ne correspondent pas."
+
+msgid "Tous les champs ne sont pas remplis."
+msgstr "Tous les champs ne sont pas remplis."
+
+msgid "Votre mot de passe a bien été changé."
+msgstr "Votre mot de passe a bien été changé."
+
+msgid "Gestion des comptes utilisateurs"
+msgstr "Gestion des comptes utilisateurs"
+
+msgid "Êtes vous certain de vouloir supprimer définitivement ce compte ?"
+msgstr "Êtes vous certain de vouloir supprimer définitivement ce compte ?"
+
+msgid "Supprimer ce compte"
+msgstr "Supprimer ce compte"
+
+msgid "Actuellement connecté"
+msgstr "Actuellement connecté"
+
+msgid "Ajouter un compte"
+msgstr "Ajouter un compte"
+
+msgid "Créer le compte"
+msgstr "Créer le compte"
+
+msgid "Changer mon mot de passe"
+msgstr "Changer mon mot de passe"
+
+msgid "Nouveau mot de passe"
+msgstr "Nouveau mot de passe"
+
+msgid "Modifier le mot de passe"
+msgstr "Modifier le mot de passe"
+
+msgid "Télécharger la sauvegarde"
+msgstr "Télécharger la sauvegarde"
+
+msgid "Exporter le site"
+msgstr "Exporter le site"
+
+msgid "Sauvegarde réussie"
+msgstr "Sauvegarde réussie"
+
+msgid "Annuler"
+msgstr "Annuler"
+
+msgid "La sauvegarde sera supprimée du serveur dès que vous aurez quitterez cette page."
+msgstr "La sauvegarde sera supprimée du serveur dès que vous aurez quitterez cette page."
+
+msgid "Créer une sauvegarde complète du site"
+msgstr "Créer une sauvegarde complète du site"
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "Déconnexion"
+msgstr "Déconnexion"
+
+msgid "Un erreur inattendue est survenue, la page n'a pas pu être supprimée."
+msgstr "Un erreur inattendue est survenue, la page n'a pas pu être supprimée."
+
+msgid "Changer le titre"
+msgstr "Changer le titre"
+
+msgid "Enregistrer l'ordre des pages"
+msgstr "Enregistrer l'ordre des pages"
+
+msgid "Titre du séparateur"
+msgstr "Titre du séparateur"
+
+msgid "Sauvegarder la page"
+msgstr "Sauvegarder la page"
+
+msgid "Êtes vous sûr de vouloir supprimer définitivement cette page ?"
+msgstr "Êtes vous sûr de vouloir supprimer définitivement cette page ?"
+
+msgid "Page de contenu"
+msgstr "Page de contenu"
+
+msgid "Séparateur de menu"
+msgstr "Séparateur de menu"
+
+msgid "Titre de l'élément"
+msgstr "Titre de l'élément"
+
+msgid "Ordre dans le menu"
+msgstr "Ordre dans le menu"
+
+msgid "Modification"
+msgstr "Modification"
+
+msgid "Suppression"
+msgstr "Suppression"
+
+msgid "Type d'élément"
+msgstr "Type d'élément"
+
+msgid "Modèle graphique"
+msgstr "Modèle graphique"
+
+msgid "Supprimer"
+msgstr "Supprimer"
+
+msgid "Vous n'avez encore créé aucun page."
+msgstr "Vous n'avez encore créé aucun page."
+
+msgid "L'ordre des pages a été modifié."
+msgstr "L'ordre des pages a été modifié."
+
+msgid "Le titre de la page est obligatoire."
+msgstr "Le titre de la page est obligatoire."
+
+msgid "Une page avec cet URL existe déjà. Chaque URL doit être unique."
+msgstr "Une page avec cet URL existe déjà. Chaque URL doit être unique."
+
+msgid "Une erreur inattendue est survenue, la page n'a pas été créée."
+msgstr "Une erreur inattendue est survenue, la page n'a pas été créée."
+
+msgid "La nouvelle page a bien été créée."
+msgstr "La nouvelle page a bien été créée."
+
+msgid "Titre de la page"
+msgstr "Titre de la page"
+
+msgid "URL unique"
+msgstr "URL unique"
+
+msgid "Sous titre"
+msgstr "Sous titre"
+
+msgid "Modèle de page"
+msgstr "Modèle de page"
+
+msgid "Javascript est désactivé : vous ne pourrez pas choisir de modèle de page automatiquement"
+msgstr "Javascript est désactivé : vous ne pourrez pas choisir de modèle de page automatiquement"
+
+msgid "Modifier la page"
+msgstr "Modifier la page"
+
+msgid "Une erreur inattendue est survenue, la page n'as pas été modifiée."
+msgstr "Une erreur inattendue est survenue, la page n'as pas été modifiée."
+
+msgid "Le champ 'Titre' ne doit pas être vide !"
+msgstr "Le champ 'Titre' ne doit pas être vide !"
+
+msgid "Aucune..."
+msgstr "Aucune..."
+
+msgid "Voir les modèles de page disponibles"
+msgstr "Voir les modèles de page disponibles"
+
+msgid "Impossible de charger les modèles de page."
+msgstr "Impossible de charger les modèles de page."
+
+msgid "Enregistrer les modifications"
+msgstr "Enregistrer les modifications"
+
+msgid "Le nouveau séparateur a été ajouté au menu."
+msgstr "Le nouveau séparateur a été ajouté au menu."
+
+msgid "L'élément a bien été supprimé."
+msgstr "L'élément a bien été supprimé."
+
+msgid "Vous n'avez effectué aucun changement."
+msgstr "Vous n'avez effectué aucun changement."
+
+msgid "Le titre du site a été modifié."
+msgstr "Le titre du site a été modifié."
+
+msgid "Le gabarit du site a été modifié."
+msgstr "Le gabarit du site a été modifié."
+
+msgid "Le slogan dun site a été modifié."
+msgstr "Le slogan dun site a été modifié."
+
+msgid "Le pied de page du site a été modifié."
+msgstr "Le pied de page du site a été modifié."
+
+msgid "Pied de page"
+msgstr "Pied de page"
+
+msgid "Gabarit"
+msgstr "Gabarit"
+
+msgid "Votre site est habillé du gabarit graphique :"
+msgstr "Votre site est habillé du gabarit graphique :"
+
+msgid "Vous pouvez changer de gabarit ici, ou modifier le gabarit actuel dans le menu <i>Changer l'apparence</i>."
+msgstr "Vous pouvez changer de gabarit ici, ou modifier le gabarit actuel dans le menu <i>Changer l'apparence</i>."
+
+msgid "Le site est bien habillé du nouveau gabarit choisi."
+msgstr "Le site est bien habillé du nouveau gabarit choisi."
+
+msgid "Oups, une erreur inattendue est survenue en essayant de modifier l'habillage du site."
+msgstr "Oups, une erreur inattendue est survenue en essayant de modifier l'habillage du site."
+
+msgid "Impossible de modifier la gabarait, vous essayez d'enregistrer une gabarit vide !"
+msgstr "Impossible de modifier la gabarait, vous essayez d'enregistrer une gabarit vide !"
+
+msgid "Liste des variables disponibles"
+msgstr "Liste des variables disponibles"
+
+msgid "Le titre de votre site, affiché sur chaque page et dans les onglets des navigateurs."
+msgstr "Le titre de votre site, affiché sur chaque page et dans les onglets des navigateurs."
+
+msgid "Le slogan de votre site, affiché d'habitude sous le titre de votre site."
+msgstr "Le slogan de votre site, affiché d'habitude sous le titre de votre site."
+
+msgid "Pied de page, affiché en général sur chaque page du site."
+msgstr "Pied de page, affiché en général sur chaque page du site."
+
+msgid "Le coeur et contenu de la page en cours : texte, images, etc."
+msgstr "Le coeur et contenu de la page en cours : texte, images, etc."
+
+msgid "Titre de la page en cours."
+msgstr "Titre de la page en cours."
+
+msgid "Les modèles que vous pouvez modifier."
+msgstr "Les modèles que vous pouvez modifier."
+
+msgid "Une erreur inattendue est survenue, nous n'arrivons pas à afficher les modèles de page modifiables."
+msgstr "Une erreur inattendue est survenue, nous n'arrivons pas à afficher les modèles de page modifiables."
+
+msgid "Sauvegarder le gabarit"
+msgstr "Sauvegarder le gabarit"
+
+msgid "Impossible d'enregistrer un modèle de page qui n'existe pas."
+msgstr "Impossible d'enregistrer un modèle de page qui n'existe pas."
+
+msgid "Le fichier a bien été enregistré."
+msgstr "Le fichier a bien été enregistré."
+
+msgid "Une erreur est survenue pendant l'enregistrement du fichier dans la base de donnée."
+msgstr "Une erreur est survenue pendant l'enregistrement du fichier dans la base de donnée."
+
+msgid "Veuillez réessayer."
+msgstr "Veuillez réessayer."
+
+msgid "Une erreur est survenue pendant le chargement du fichier."
+msgstr "Une erreur est survenue pendant le chargement du fichier."
+
+msgid "Ce type de fichier n'est pas autorisé."
+msgstr "Ce type de fichier n'est pas autorisé."
+
+msgid "Enregistrer le fichier"
+msgstr "Enregistrer le fichier"
+
+msgid "Contenu de la page"
+msgstr "Contenu de la page"
+
+msgid "Chargez une image ou un fichier destiné à être utiliser sur votre site, ou dans l'une de vos pages."
+msgstr "Chargez une image ou un fichier destiné à être utiliser sur votre site, ou dans l'une de vos pages."
+
