@@ -12,10 +12,10 @@ require_once("includes/class.SystemData.php");
 *	Spécifique au formulaire de contact
 **/
 if(isset($_POST["nom"]) && isset($_POST["email"])){
-	$Destinataire = "arnaud.laforge@arnosteo-formation.fr";
-	$Sujet = "Nouvelle demande de contact sur arnosteo-formation-bebe.fr";
+	$Destinataire = "EMAIL@DOMAIN.com";
+	$Sujet = "Nouvelle demande de contact";
 	
-	$From  = "From:utilisateur@arnosteo-formation.fr\n";
+	$From  = "From:EMAIL@DOMAIN.com\n";
 	$From .= "MIME-version: 1.0\n";
 	$From .= "Content-type: text/html; charset= iso-8859-1\n";
 	

@@ -16,16 +16,16 @@ require_once("../includes/inc.AdminLayout.php");
 			<!-- <li><i>arnosteo@arnosteo-formation.fr</i> [Mot de passe : <b>arnosteo44</b>]</li> -->
 		</ul>';
 		
-	$html .= '<h3>Suivi des visites sur arnosteo-formation-bebe.fr</h3>';
-	$html .= 'Se rendre sur <a href="https://www.google.com/analytics/reporting/?reset=1&id=47517726&pdr=20110524-20110623" target="_blank">Google Analytics</a> et se connecter avec ';
+	$html .= '<h3>Suivi des visites sur le site</h3>';
+	$html .= 'Se rendre sur <a href="https://www.google.com/analytics/#" target="_blank">Google Analytics</a> et se connecter avec ';
 	$html .= '<ul>
-				<li><i>arnaud.laforge@arnosteo-formation.fr</i> [Mot de passe : <b>arnosteo44</b>]</li>
+				<li><i>info ???</li>
 			</ul>';
 		
 	$html .= '<h3>Contact et support</h3>';
 	
 	$html .= '<p>
-		Mot de passe perdu ou problèmes de connexino ? Ecrivez à <a href="mailto:support@dockydocs.com">support@dockydocs.com</a>.
+		Mot de passe perdu ou problèmes de connexion ? Ecrivez à <a href="mailto:support@blank.com">support@blank.com</a>.
 	</p>';
 	
 	
